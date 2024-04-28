@@ -13,6 +13,7 @@ Dataset_1st:https://opendatanepal.com/dataset/district-wise-daily-climate-data-f
 Dataset_2nd:https://opendatanepal.com/dataset/district-wise-daily-climate-data-for-nepal/resource/a1601f7e-8eb2-4811-b83d-263d181f9abb
 
 Requirements:
+-------------
 
     pip3 install django
     pip3 install jupyter
@@ -21,6 +22,7 @@ Requirements:
     pip3 install pandas
 
 To run the project, use the command:
+------------------------------------
 
     python manage.py runserver
     
