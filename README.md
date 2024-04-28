@@ -10,6 +10,7 @@ Interval of data collection: Daily basis
 No of Districts: 62 (Some districts are not mentioned in the dataset but you can use it for others too.)
 
 Dataset_1st:https://opendatanepal.com/dataset/district-wise-daily-climate-data-for-nepal/resource/70da6b2c-d705-4416-9e17-aca24465d865
+
 Dataset_2nd:https://opendatanepal.com/dataset/district-wise-daily-climate-data-for-nepal/resource/a1601f7e-8eb2-4811-b83d-263d181f9abb
 
 Requirements:
