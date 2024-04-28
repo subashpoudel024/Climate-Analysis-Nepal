@@ -1,4 +1,4 @@
-****Climate Analysis of Nepal using the data of past 30 years from 1981 AD to 2019 AD****
+**Climate Analysis of Nepal using the data of past 30 years from 1981 AD to 2019 AD**
 =========================================================================================
 
 This is the end to end project of Nepal's climate analysis and model building. The model is trained in google colab and deployed using django web framework.
