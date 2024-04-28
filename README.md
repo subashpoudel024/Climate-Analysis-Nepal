@@ -1,4 +1,4 @@
-**Climate Analysis of Nepal using the data of past 30 years from 1981 AD to 2019 AD**
+***Climate Analysis of Nepal using the data of past 30 years from 1981 AD to 2019 AD***
 
 No of Features used: 19
 
