@@ -1,0 +1,77 @@
+{% extends 'analysis/base.html' %}
+{% block content %}
+<div class="row">
+    <div class="col-sm-8 offset-2">
+        <h4 class='alert alert-info'>Input the features</h4>
+        <form action="" method="post">
+            {% csrf_token %}
+            <label for="id_DATE">Date:</label>
+            <input type="date" id="id_DATE" name="DATE" required><br><br>
+
+            <label for="id_DISTRICT">District name:</label>
+            <input type="text" id="id_DISTRICT" name="DISTRICT" maxlength="100" required><br><br>
+
+            <label for="id_LAT">Latitude:</label>
+            <input type="number" id="id_LAT" name="LAT" min="-90" max="90" step="0.0001" required><br><br>
+
+            <label for="id_LON">Longitude:</label>
+            <input type="number" id="id_LON" name="LON" min="-180" max="180" step="0.0001" required><br><br>
+
+                    
+            <label for="id_PS">Surface Pressure (kPa):</label>
+            <input type="number" id="id_PS" name="PS" step="0.01" required><br><br>
+
+            <label for="id_QV2M">Specific Humidity at 2 Meters (g/kg):</label>
+            <input type="number" id="id_QV2M" name="QV2M" step="0.01" required><br><br>
+
+            <label for="id_RH2M">Relative Humidity at 2 Meters (%):</label>
+            <input type="number" id="id_RH2M" name="RH2M" step="0.01" required><br><br>
+
+            <label for="id_T2M">Temperature at 2 Meters (C):</label>
+            <input type="number" id="id_T2M" name="T2M" step="0.01" required><br><br>
+
+            <label for="id_T2MWET">Wet Bulb Temperature at 2 Meters (C):</label>
+            <input type="number" id="id_T2MWET" name="T2MWET" step="0.01" required><br><br>
+
+            <label for="id_T2M_MAX">Maximum Temperature at 2 Meters (C):</label>
+            <input type="number" id="id_T2M_MAX" name="T2M_MAX" step="0.01" required><br><br>
+
+            <label for="id_T2M_MIN">Minimum Temperature at 2 Meters (C):</label>
+            <input type="number" id="id_T2M_MIN" name="T2M_MIN" step="0.01" required><br><br>
+
+            <label for="id_T2M_RANGE">Temperature Range at 2 Meters (C):</label>
+            <input type="number" id="id_T2M_RANGE" name="T2M_RANGE" step="0.01" required><br><br>
+
+            <label for="id_WS10M">Wind Speed at 10 Meters (m/s):</label>
+            <input type="number" id="id_WS10M" name="WS10M" step="0.01" required><br><br>
+
+            <label for="id_WS10M_MAX">Maximum Wind Speed at 10 Meters (m/s):</label>
+            <input type="number" id="id_WS10M_MAX" name="WS10M_MAX" step="0.01" required><br><br>
+
+            <label for="id_WS10M_MIN">Minimum Wind Speed at 10 Meters (m/s):</label>
+            <input type="number" id="id_WS10M_MIN" name="WS10M_MIN" step="0.01" required><br><br>
+
+            <label for="id_WS10M_RANGE">Wind Speed Range at 10 Meters (m/s):</label>
+            <input type="number" id="id_WS10M_RANGE" name="WS10M_RANGE" step="0.01" required><br><br>
+
+            <label for="id_WS50M">Wind Speed at 50 Meters (m/s):</label>
+            <input type="number" id="id_WS50M" name="WS50M" step="0.01" required><br><br>
+
+            <label for="id_WS50M_MAX">Maximum Wind Speed at 50 Meters (m/s):</label>
+            <input type="number" id="id_WS50M_MAX" name="WS50M_MAX" step="0.01" required><br><br>
+
+            <label for="id_WS50M_MIN">Minimum Wind Speed at 50 Meters (m/s):</label>
+            <input type="number" id="id_WS50M_MIN" name="WS50M_MIN" step="0.01" required><br><br>
+
+            <label for="id_WS50M_RANGE">Wind Speed Range at 50 Meters (m/s):</label>
+            <input type="number" id="id_WS50M_RANGE" name="WS50M_RANGE" step="0.01" required><br><br>
+
+            <input type="submit" value="Predict">
+
+            
+
+        </form>
+
+    </div>
+</div>
+{% endblock content %}
