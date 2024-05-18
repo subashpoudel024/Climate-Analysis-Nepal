@@ -2,26 +2,11 @@
 {% block content %}
 <div class="row">
     <div class="col-sm-8 offset-2">
-        <h4 class='alert alert-info'>Input the features</h4>
+        <h4 class='alert alert-info'>Input the Date</h4>
         <form action="" method="post">
             {% csrf_token %}
             <label for="id_DATE">Date:</label>
             <input type="date" id="id_DATE" name="DATE" required><br><br>
-
-            <label for="id_DISTRICT">District name:</label>
-            <input type="text" id="id_DISTRICT" name="DISTRICT" maxlength="100" required><br><br>
-
-            <label for="id_PS">Surface Pressure (kPa):</label>
-            <input type="number" id="id_PS" name="PS" step="0.01" required><br><br>
-
-            <label for="id_QV2M">Specific Humidity at 2 Meters (g/kg):</label>
-            <input type="number" id="id_QV2M" name="QV2M" step="0.01" required><br><br>
-
-
-
-
-            <label for="id_WS10M">Wind Speed at 10 Meters (m/s):</label>
-            <input type="number" id="id_WS10M" name="WS10M" step="0.01" required><br><br>
 
 
             <input type="submit" value="Predict">
