@@ -15,6 +15,7 @@ Dataset_2nd:https://opendatanepal.com/dataset/district-wise-daily-climate-data-f
 
 Requirements:
 -------------
+    pip3 install statsmodels
     pip3 install django
     pip3 install dill
     pip3 install numpy
