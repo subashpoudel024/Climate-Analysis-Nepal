@@ -1,8 +1,8 @@
 from django.shortcuts import render
 import pandas as pd
 import numpy as np
-import xgboost as xgb
-from sklearn.pipeline import Pipeline
+# import xgboost as xgb
+# from sklearn.pipeline import Pipeline
 import __main__
 __main__.pd = pd
 import dill
