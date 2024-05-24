@@ -1,4 +1,24 @@
 {% extends 'analysis/base.html' %}
 {% block content %}
-<h3>The predicted earth skin temperature  is {{y_pred}} celsius</h3>
+
+
+
+<table>
+    <tr>
+        <th>Type</th>
+        <th>Value</th>
+    </tr>
+    <tr>
+        <td>Average Forecast</td>
+        <td>{{ avg }}</td>
+    </tr>
+    <tr>
+        <td>Minimum Forecast</td>
+        <td>{{ min }}</td>
+    </tr>
+    <tr>
+        <td>Maximum Forecast</td>
+        <td>{{ max }}</td>
+    </tr>
+</table>
 {% endblock content %}
