@@ -20,6 +20,7 @@ Requirements:
     pip3 install dill
     pip3 install numpy
     pip3 install pandas
+    pip3 install prophet
 
 To run the project, use the command:
 ------------------------------------
